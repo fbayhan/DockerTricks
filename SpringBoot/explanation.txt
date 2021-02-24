@@ -1,0 +1,5 @@
+Simple jar file executor docker file
+
+
+docker build -f DockerFile -t dockerspringboot .
+docker run -p 8094:8094 dockerspringboot
